@@ -1,0 +1,296 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    background-color: #F1F1EE;
+    
+}
+nav{
+    width: 20%;
+    height: 100vh;
+    background-color: white;
+    position: fixed;
+    padding: 40px 60px;
+}
+nav h2{
+    padding-top: 20px;
+}
+nav p{
+    padding-top: 8px;
+    font-size: 20px;
+    color: gray;
+}
+nav ul{
+    padding-top: 15px;
+    line-height: 40px;
+    font-size: 19px;
+}
+nav ul li a{
+    color: black;
+    padding-left: 10px;
+}
+nav .icon{
+    margin-top: 35px;
+}
+nav .icon i{
+    padding: 2px;
+    font-size: 20px;
+}
+nav ul li:hover{
+    background-color: rgb(214, 214, 214);
+}
+nav ul li:hover a{
+    color: #009688;
+}
+.header{
+    width: 78%;
+    height: 20vh;
+    margin-left: 400px;
+    border-bottom: 9px solid gray;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 50px;
+    padding: 10px 30px;
+}
+.header h1{
+    font-size: 50px;
+    padding-bottom: 15px;
+}
+.header .filter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+.header p{
+    font-size: 25px;
+    padding-right: 20px;
+}
+.header .filter .all{
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header .filter .all i{
+    padding-right: 5px;
+}
+.header .filter .all:hover{
+    background-color: rgb(196, 196, 196);
+   
+}
+.filter .all1{
+    width: 120px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    transition: 0.4s;
+}
+.filter .all1:hover{
+    background-color: black;
+    color: white;
+}
+.one {
+    width: 78%;
+    height: 100vh;
+    background-color: #F1F1EE;
+    margin-left: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.one .cards{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+.cards .card1, .card2 , .card3{
+    background-color: white;
+    
+}
+.cards .card1 p{
+    padding: 15px;
+}
+.cards .card1 h4{
+    padding: 10px;
+}
+.cards .card2 p{
+    padding: 15px;
+}
+.cards .card2 h4{
+    padding: 10px;
+}
+.cards .card3 p{
+    padding: 15px;
+}
+.cards .card3 h4{
+    padding: 10px;
+}
+
+.cards .card1 {
+    position: relative;
+}
+.cards .card1 .opacity{
+    width: 433px;
+    height: 288px;
+    position: absolute;
+    background-color: rgb(155, 155, 155);
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: 0.3s;
+}
+.cards .card1:hover .opacity{
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.cards .card2 {
+    position: relative;
+}
+.cards .card2 .opacity{
+    width: 433px;
+    height: 288px;
+    position: absolute;
+    background-color: rgb(155, 155, 155);
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: 0.3s;
+}
+.cards .card2:hover .opacity{
+    opacity: 0.5;
+    transition: 0.3s;
+}
+.cards .card3 {
+    position: relative;
+}
+.cards .card3 .opacity{
+    width: 433px;
+    height: 288px;
+    position: absolute;
+    background-color: rgb(155, 155, 155);
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: 0.3s;
+}
+.cards .card3:hover .opacity{
+    opacity: 0.5;
+    transition: 0.3s;
+}
+.two{
+    width: 78%;
+    height: 120vh;
+    background-color: #F1F1EE;
+    margin-left: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.two-card{
+    width: 88%;
+    display: flex;
+    justify-content: space-between;
+}
+.write{
+    width: 88%;
+    line-height: 30px;
+}
+.write p{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.write h2{
+    font-size: 30px;
+    padding-top: 15px;
+}
+.scroll{
+    width: 88%;
+}
+.scroll p{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.scroll h2{
+    font-size: 30px;
+    padding-top: 15px;
+}
+.big{
+    width: 100%;
+    background-color: #9e9e9e;
+    height: 40px;
+    position: relative;
+    margin-top: 20px;
+}
+.big .little1{
+    width: 95%;
+    height: 40px;
+    background-color: #616161;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.big .little2{
+    width: 85%;
+    height: 40px;
+    background-color: #616161;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.big .little3{
+    width: 80%;
+    height: 40px;
+    background-color: #616161;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.scroll button{
+    width: 230px;
+    height: 60px;
+    background-color: #616161;
+    color: white;
+    border: none;
+    margin-top: 50px;
+    transition: 0.8s;
+}
+.scroll button i{
+    color: white;
+    font-size: 13px;
+    padding-right: 10px;
+}
+.scroll button:hover{
+    background-color: #9e9e9e;
+}
